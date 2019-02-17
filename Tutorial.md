@@ -84,16 +84,14 @@ What this does is put your file in the staging or index environment. It's saying
 
 If you run the ```git status``` command you'll see it looks a little different. Now it's saying that that given file is getting ready to be commited. To clarify, it has **not** yet been put into a commit, but it will be soon!
 
-<img width="384" alt="screen shot 2015-08-10 at 11 08 32 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189304/c2f7a290-3fb4-11e5-9562-23a5bf38cb57.png">
+![git status amended](gitstatus_modified.PNG)
 
 Now we'll make the commit!
 Run the command ```git commit -m "Your message about the commit"```
 
+![git commit](gitcommit.PNG)
 
-<img width="508" alt="screen shot 2015-08-10 at 11 17 24 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189408/06e40e84-3fb6-11e5-9397-83ac0ef10736.png">
-
-
-The message you put at the end of the commit should be something related to what the commit contains - maybe it's a new feature, maybe it's a bug fix, maybe it's just fixing a typo. It shouldn't be something like "asdfadsf" or "foobar". That makes the other people who see your commit sad.
+The message you put at the end of the commit should be something related to what the commit contains - maybe it's a new feature, maybe it's a bug fix, maybe it's just fixing a typo. It shouldn't be something like "asdfadsf" or "foobar". That makes the other people who see your commit sad (and frankly a bit annoyed)
 
 # Step 6: Pushing a branch to the GitHub
 
