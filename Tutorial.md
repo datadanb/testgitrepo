@@ -43,9 +43,9 @@ Using the command ```git log``` you can see a list of all the changes made in th
 b. What branches exist in the project
 Using the command ```git branch``` you can see what branches a project contains
 
-<img width="319" alt="screen shot 2015-08-10 at 10 48 40 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189095/f73abbd0-3fb1-11e5-8fac-ab3ef993a43c.png">
+![git branch output](gitbranch.PNG)
 
-In the picture above you can see that this one project has three branches in it. The master branch (which is basically always there), and 'my-new-branch' and 'my-second-cool-feature'.
+In the picture above you can see that this one project has two branches in it. The master branch (which is basically always there), and my 'assets' branch for images or other assets to use at a later date.
 
 # Step 3: Creating a new branch
 
@@ -61,8 +61,6 @@ What this does is say, "Hey git, I want to create a new branch (that's what the 
 
 Afterwards you can use the ```git branch``` command to confirm that your branch really was created!
 
-<img width="406" alt="screen shot 2015-08-10 at 10 52 54 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189163/9375ea9c-3fb2-11e5-88e4-249c6ff3cce0.png">
-
 You should notice that you're now pointed towards your new branch as well.
 
 # Step 4: Adding a new file to the repo
@@ -72,7 +70,7 @@ Once you add or modify files in a folder that contains a git repo, git notices i
 
 After creating the new file, you can use the ```git status``` command to see what files it knows about.
 
-<img width="547" alt="screen shot 2015-08-10 at 10 58 58 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189214/6f61db42-3fb3-11e5-966a-5a7800a582e0.png">
+![git status](gitstatus.PNG)
 
 What this is saying above is, 'Hey, we noticed you created a new file mnelson.txt, but unless you use the ```git add`` command we aren't going to touch it.'
 
