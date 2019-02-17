@@ -82,7 +82,7 @@ Use the command ```git add <your file name>```
 
 What this does is put your file in the staging or index environment. It's saying, 'Hey, we're about to make a commit with this specific file'. This gives you the ability to not commit every single file you've changed.
 
-If you run the ```git status``` command you'll see it looks a little different. Now it's saying that that given file is getting ready to be commited. To clarify, it has **not** yet been put into a commit, but it will be soon!
+If you run the ```git status``` command you'll see it looks a little different. Now it's saying that that given file is getting ready to be committed. To clarify, it has **not** yet been put into a commit, but it will be soon!
 
 ![git status amended](gitstatus_modified.PNG)
 
@@ -97,10 +97,9 @@ The message you put at the end of the commit should be something related to what
 
 Now we'll **push** the commit in your branch to GitHub. This allows other people to see your changes. If they're approved, then they'll be merged into the master branch.
 
-
 To push into your new branch on GitHub, the command name is ```git push origin yourbranchname```
 
-<img width="444" alt="screen shot 2015-08-10 at 11 20 32 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189437/70ae7f20-3fb6-11e5-9534-0eae5e877081.png">
+![git branch](gitbranchpush.PNG)
 
 GitHub will automatically create the branch for you on the server.
 
@@ -109,11 +108,11 @@ You may be wondering what that "origin" word is in the command above. What happe
 or
 ```git push origin yourbranchname```
 
-You can check now on GitHub to see that the branch has been created. Go to the fron page of the repository: https://github.com/cubeton/git101
+You can check now on GitHub to see that the branch has been created. Go to the from page of the repository: https://github.com/datadanb/testgitrepo
 
 You may see a little note saying a branch with your name has just been pushed into the repository. You can also click the 'branches' link to see your branch listed there.
 
-<img width="813" alt="screen shot 2015-08-10 at 11 23 29 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189475/da30eb86-3fb6-11e5-934f-ca596a2cac69.png">
+![git branch](gitrepobranch.PNG)
 
 Now click the green button seen to the bottom right of that picture. We're going to make a **pull request**!
 
@@ -159,7 +158,7 @@ Right now the repo on GitHub looks a little different than what you have on your
 
 In order to get the most recent changes that you or others have merged on GitHub, use the ```git pull origin master``` command.
 
-<img width="994" alt="screen shot 2015-08-10 at 11 43 04 pm" src="https://cloud.githubusercontent.com/assets/5241432/9189654/96ef3974-3fb9-11e5-93fa-b4c06c6c84cb.png">
+![git pull](gitpullresult.PNG)
 
 This shows you all the files that have changed and by how much.
 
@@ -173,14 +172,6 @@ Now we can use the  ```git log``` command again and see all the new commits that
 
 Great job!
 
-<img width="500" alt="octocat" src="https://assets-cdn.github.com/images/modules/logos_page/Octocat.png">
-
+<img width="500" alt="octocat" src="https://avatars1.githubusercontent.com/u/583231?s=400&v=4">
 
 Now if you'd like, you can check out the other files in this folder for even more git tips and tricks.
-
-
-# Step 11: More teamwork
-
-If you have extra time, I'd recommend working with your team to simulate a smaller team project. For instance, have your team make a new folder with your team name, and add some files with text in it. Then try pushing those changes to this remote repository. The more you use git, the more comfortable you'll... git with it :)
-
-Afterwards, the team can start making changes to files they didn't originally create. Then retry the process of using the pull request feature. Afterwards you can use the **git blame** and the **git history** tool on GitHub to see how you can keep track of all the changes people have made in a file, and all the people who have made changes.
